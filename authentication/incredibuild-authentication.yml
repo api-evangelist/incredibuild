@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.incredibuild.com/win/latest/windows/api.html
+docs: https://docs.incredibuild.com/win/v9/windows/setting_up_API_environment.html
+summary:
+  types:
+  - apiKey
+  api_key_in:
+  - header
+  oauth2_flows: []
+  notes: 'Incredibuild Build Group and Build History REST APIs authenticate with a
+    custom API key. The key is generated in the Coordinator and passed in every request
+    as an HTTPS header. There is no OpenAPI/Swagger definition published; this profile
+    is captured from the developer documentation.'
+schemes:
+- name: clientApiKey
+  type: apiKey
+  in: header
+  parameter_name: client-api-key
+  description: 'Custom API key sent in the client-api-key HTTPS request header. The
+    key is created and copied from the Coordinator API configuration; the Coordinator
+    must have Build Group APIs enabled and an API port configured (default 31100).'
+  source: https://docs.incredibuild.com/win/latest/windows/api.html
