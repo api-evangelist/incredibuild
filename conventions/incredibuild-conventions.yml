@@ -1,0 +1,44 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.incredibuild.com/win/latest/windows/working_with_REST_APIs_for_build_groups.html
+docs: https://docs.incredibuild.com/win/latest/windows/api.html
+summary: 'Cross-cutting request/response semantics for the Incredibuild Build Group
+  and Build History REST APIs, captured from the developer documentation. These are
+  standard HTTPS REST APIs served by the on-premises/cloud Coordinator; no OpenAPI
+  definition is published, so this profile reflects documented behavior rather than a
+  derived spec.'
+authentication:
+  style: api-key-header
+  header: client-api-key
+  detail: Custom API key passed in the client-api-key HTTPS header on every request.
+  cross_ref: authentication/incredibuild-authentication.yml
+transport:
+  protocol: HTTPS
+  style: REST
+  default_port: 31100
+  clients: Any HTTPS/REST client (Visual Studio REST client, Postman, cURL).
+  tls: 'Coordinator may present a self-signed certificate that must be trusted by the
+    client; see docs on importing the Incredibuild self-signed certificate.'
+media_types:
+  request: application/json
+  response: application/json
+  notes: 'The Build History API returns build telemetry as a JSON document for use in
+    dashboards and analysis.'
+idempotency:
+  supported: false
+  notes: 'No idempotency-key header or idempotent-write contract is documented for the
+    Build Group APIs.'
+pagination:
+  supported: unknown
+  notes: 'No pagination scheme is documented in the public API reference.'
+versioning:
+  scheme: product-version
+  detail: 'API documentation is versioned alongside the Incredibuild product release
+    (for example win/10_24, win/latest). The API surface tracks the installed
+    Coordinator/product version rather than a URL/header API version.'
+  cross_ref: changelog/incredibuild-changelog.yml
+error_handling:
+  style: http-status
+  format: 'Standard HTTP status codes; no RFC 9457 problem+json envelope is documented.'
+rate_limiting:
+  documented: false

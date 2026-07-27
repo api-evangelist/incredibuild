@@ -1,0 +1,34 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.incredibuild.com/win/latest/windows/release_notes.html
+docs: https://docs.incredibuild.com/win/latest/windows/release_notes.html
+scheme: semver
+current_version: 10.36.0
+notes: 'Incredibuild publishes dated release notes for the Windows product (with
+  separate release notes for Cloud and Linux). Versions follow MAJOR.MINOR.PATCH.
+  Recent window captured below; the live release-notes page is the source of truth.'
+entries:
+- version: 10.36.0
+  date: '2026-07-13'
+  highlights:
+  - Support for Green Hills lists.
+  - Support for Helper machines with more than 255 CPU cores.
+  - Visual Studio 2026 environment-variable compatibility.
+  - Improved dashboard accuracy.
+- version: 10.35.3
+  date: '2026-07-08'
+  highlights:
+  - Stability fixes.
+- version: 10.35.2
+  date: '2026-06-23'
+  highlights:
+  - Fixes for excluded project handling and a Coordinator crash resolution.
+- version: 10.35.1
+  date: '2026-06-04'
+  highlights:
+  - Stability improvements.
+- version: 10.35.0
+  date: '2026-05-26'
+  highlights:
+  - New Coordinator (C++) with significant improvements in performance, stability,
+    and supportability.
