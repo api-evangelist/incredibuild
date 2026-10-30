@@ -64,6 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Incredibuild is a company surfaced as a portfolio company of insight-partners and added to the API Evangelist network as a stub for enrichment. Sector: devops. This profile is a lead awaiting the enrichment pipeline.
+Incredibuild is a development acceleration platform that speeds up developer and CI/CD builds using distributed processing and build caching. Its universal acceleration layer parallelizes compilation and other tasks across idle CPUs on-premises and in the cloud, removes redundant work with organization-wide caching, and surfaces pipeline bottlenecks through observability dashboards. Products include Build Cache, Distributed Processing, Observability, Build Runner (managed CI runners), Build Guard (audit-ready SBOMs), and Islo (an AI sandbox for coding agents). Incredibuild exposes a set of Build Group REST APIs for managing build groups and users on the Coordinator, plus a Build History API that returns build telemetry as JSON for dashboards and analysis. It serves gaming, automotive, semiconductor, embedded, financial services, and medtech teams, and is natively embedded in Visual Studio. Backed by Insight Partners.
 
-Backed by: insight-partners — https://www.incredibuild.com/
+**Areas:** Company · DevOps · Build Acceleration · Continuous Integration · Distributed Computing · Build Cache · Developer Tools · CI/CD
+
+## Incredibuild on APIs.io
+
+Everything profiled for Incredibuild is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/incredibuild/](https://apis.io/providers/incredibuild/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Incredibuild Build Group & Build History API](https://apis.io/apis/incredibuild/incredibuild-build-group-build-history-api/) — Standard REST APIs exposed by the Incredibuild Coordinator for managing build groups and users, and a Build History API that returns build telemetry as…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Incredibuild Authentication](https://apis.io/security/incredibuild/incredibuild-authentication/)
+- [Incredibuild Domain Security](https://apis.io/security/incredibuild/incredibuild-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.incredibuild.com/)
+- [Documentation](https://docs.incredibuild.com/)
+- [Getting started](https://docs.incredibuild.com/site_landing/download_docs_center.htm)
+- [API reference](https://docs.incredibuild.com/win/latest/windows/api.html)
+- [Pricing](https://www.incredibuild.com/pricing)
+- [Sign up](https://app.incredibuild.com/)
+- [Support](https://www.incredibuild.com/support)
+- [Changelog](https://docs.incredibuild.com/win/latest/windows/release_notes.html)
+- [Blog](https://www.incredibuild.com/blog)
+- [Terms of service](https://www.incredibuild.com/eula)
+- [Privacy policy](https://www.incredibuild.com/privacy-policy)
+- [GitHub](https://github.com/IncrediBuild)
+
+## API Evangelist rating
+
+**Kin Score 27.4** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 31.6 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/incredibuild/](https://apis.io/providers/incredibuild/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Incredibuild: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/incredibuild/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
